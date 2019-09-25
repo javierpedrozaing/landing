@@ -1,0 +1,471 @@
+  /*STYLES */
+  body {
+    width: 100%;
+    background: #bc2b6c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px
+}
+
+h1,
+h2,
+p,
+small {
+    color: #fff
+}
+
+small {
+    font-size: 12px
+}
+
+.container,
+header {
+    width: 100%;
+    margin: 0 auto
+}
+
+form {
+    width: 80%;
+    margin: 0 auto
+}
+
+footer {
+    margin: 20px 0
+}
+
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%
+}
+
+.bootstrap-select>.dropdown-toggle,
+.btn-primary:hover,
+.dropdown-header,
+.dropdown-menu>li>a,
+.selectpicker,
+.stepwizard-step a {
+    color: #000!important
+}
+
+.bootstrap-select .dropdown-toggle[data-id="selectProduct"] .filter-option-inner-inner {
+    color: #000;
+    font-weight: bold;
+}
+
+.filter-option-inner-inner {
+    color: #000
+}
+
+.bootstrap-select>.dropdown-toggle {
+    background: #fff;
+    border-radius: 50px;
+    width: 90%;
+    height: 40px;
+    margin: 0 5%;
+}
+
+.bootstrap-select.show-tick .dropdown-menu .selected span.check-mark{
+    right: 0;
+}
+
+.bootstrap-select .dropdown-menu {
+    min-width: 90%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 63%;
+    border-radius: 20px;
+    margin: 0 5%
+}
+
+.bootstrap-select .dropdown-menu .inner.open {
+    overflow: hidden
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 11px
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    text-align: center
+}
+
+.logo {
+    min-width: 8%;
+    margin: 20px auto;
+    align-content: center;
+    display: flex
+}
+
+h2.header {
+    text-align: center;
+    font-weight: 700;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px
+}
+
+.setup-content p {
+    font-size: 13px;
+    margin: 5px 0 10px 6%
+}
+
+.setup-content p:first-child {
+    text-align: center;
+    margin: 5% auto;
+    font-size: 18px;
+    line-height: 20px
+}
+
+.form-group.custom-control.custom-radio {
+    display: flex
+}
+
+.custom-radio input#accept_terms {
+    width: 20px!important
+}
+
+.form-control {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.setup-content .field-required {
+    margin: 5px 0 10px 6%;
+    height: 10px;
+}
+
+.setup-content .field-required span {
+    color: #ddd0d0db
+}
+
+.col-xs-12#more-info {
+    margin-bottom: 20px
+}
+
+.setup-content .info-required {
+    margin: 5px 0 24px 14%
+}
+
+.form-group.custom-control.custom-radio {
+    margin: 5px 0 10px 7%;
+    left: 0;
+    width: 70%
+}
+
+#helpId,
+#helpId a {
+    color: #fff
+}
+
+#helpId a {
+    font-weight: 700
+}
+
+.custom-radio div.form-control {
+    padding: 0;
+    border: transparent;
+    height: 0;
+    width: 20px;
+    top: -14px;
+    position: relative
+}
+
+.custom-radio small {
+    margin: 0 10px
+}
+
+#select_document {
+    width: 100%
+}
+
+.form-group {
+    margin: 10px
+}
+
+.form-group input {
+    width: 90%;
+    border-radius: 50px;
+    height: 40px
+}
+
+.form-group label {
+    display: inline-block;
+    max-width: 100%;
+    color: #fff;
+    margin: 0 6%;
+    line-height: 28px;
+    font-size: .8em;
+    font-weight: 100
+}
+
+.stepwizard-step p {
+    margin-top: 3px;
+    font-size: 12px
+}
+
+.stepwizard-row {
+    display: table-row
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+    margin: 20px 0
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1!important
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 46%;
+    height: 2px;
+    background-color: #ffeb3b;
+    z-order: 0;
+    left: 26%
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    background-color: #5f5f5f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    padding: 0;
+    font-weight: 500;
+}
+
+.nextBtn,
+.sendBtn, .subscribe-btn {
+    background: #f6e537;
+    width: 58%;
+    margin: 30px 20%;
+    height: 30px;
+    border-radius: 50px;
+    color: #000;
+    font-size: 1em;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover {
+    background: #f6e537
+}
+
+.modal-success-desktop {    
+    color: #fff;
+    position: fixed;
+    top: 5%;
+    left: 5%;    
+    width: 90vw;
+    transition: all .5s
+}
+
+.modal-success-desktop .close-modal {
+    position: relative;
+    float: right;
+    right: 36px;
+    top: 20px;
+    cursor: pointer
+}
+
+.modal-success-desktop .content-modal {    
+    margin: 15% auto
+}
+
+.modal-success-desktop .content-modal h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-success-desktop .content-modal img {
+    max-width: 20%;
+    margin: 0 auto;
+    display: flex
+}
+
+.modal-success-desktop .content-modal p,
+.modal-success-desktop .content-modal p a {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 40px;    
+
+}
+
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.modal-success-desktop .content-modal input {
+    margin: 0 auto;
+    width: 31%;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    cursor:pointer;
+    
+}
+
+.selectedProduct {
+    display: none
+}
+
+ul.selectProduct{
+    background: #fff !important;
+    width: 75%;
+    border-radius: 13px;
+    border: 1px solid;
+    padding: 10px 25px;
+    list-style: none;
+}
+
+ul.selectProduct .listProducts{
+    background: #fff !important;        
+    font-size: 0.6em;
+    padding: 5px 0;
+}
+
+ul.selectProduct .listProducts:hover{
+    background: #ccc !important;
+    padding: 5px;
+}
+
+.ui-helper-hidden-accessible{
+    display:none;
+}
+
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+  * html .ui-autocomplete {
+    height: 90px;
+  }
+
+  /*STYLES RESPONSIVE*/
+
+  @media (max-width:600px) {
+    .form-group.custom-control.custom-radio {
+        margin: 5px 0 10px 11%
+    }
+    .modal-success-desktop .content-modal input {
+        width: auto
+    }
+    .modal-success-desktop .content-modal {
+        margin: 47% auto;
+        width: auto
+    }
+    .setup-content .info-required {
+        margin: 5px 0 24px 12%
+    }
+    .form-group.custom-control.custom-radio {
+        width: 100%
+    }
+    form {
+        width: 100%
+    }
+
+    .bootstrap-select .dropdown-toggle[data-id="selectProduct"] .filter-option-inner-inner {
+        font-size: 10px;
+    }
+
+    .bootstrap-select .dropdown-menu .inner.open {
+        max-height: 250px
+    }
+}
+
+@media (max-width:800px) {
+    .form-group.custom-control.custom-radio {
+        width: 80%;
+        margin: 5px 0 10px 10%
+    }
+    .logo {
+        max-width: 15%
+    }
+    
+}
+
+@media (min-width:800px) {
+    .setup-content p:first-child {
+        width: auto
+    }
+    .logo {
+        max-width: 4%
+    }
+    .setup-content .info-required {
+        margin: 5px 0 24px 7%
+    }
+    .custom-radio small {
+        margin: 0 52px;
+        left: -7%;
+        position: relative
+    }
+    ul.selectProduct{
+        max-width: 30% !important;
+    }
+}
+
+@media (min-width:1152px) {
+    .custom-radio small {
+        left: -87px
+    }
+    .form-group.custom-control.custom-radio {
+        margin: 5px 0 10px 1%
+    }
+}
+
+@media (min-width:1360px) {
+    .custom-radio small {
+        margin: 0 4%;        
+        position: relative
+    }
+    .form-group.custom-control.custom-radio {
+        margin: 5px 0 10px 0
+    }
+    .form-group.custom-control.custom-radio {
+        width: 60%
+    }
+}
+
+@media (min-width:1720px) {
+    .form-group.custom-control.custom-radio {
+        width: 47%
+    }
+}
