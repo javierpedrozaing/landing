@@ -125,7 +125,7 @@
              
                 <p class="info-required">Los campos marcados con * son obligatorios</p>                         
                     <div class="form-group custom-control custom-radio">    
-                      <div class="form-control"><input type="checkbox"  id="accept_terms" class="custom-control-input" placeholder="" name="acceptTerms"></div>                                      
+                      <div class="form-control"><input type="checkbox" required id="accept_terms" class="custom-control-input" placeholder="" name="acceptTerms"></div>                                      
                       <small id="helpId" class="text-muted">Acepto <a href="http://diasdepreciosespeciales.com/terminos-condiciones-exito.pdf" target="_blank">términos y condiciones</a> y autorizo el  <a href="http://diasdepreciosespeciales.com/terminos-condiciones-exito.pdf" target="_blank">tratamiento de mis datos personales</a></small>
                       <br>
                     
@@ -298,7 +298,7 @@
             $('#nameProduct').keypress(function(e){
                 //return el.value.replace(/[0-9]/g, "");
                 e = e || window.event;
-                e[0].value.replace("", "");
+              //  e[0].value.replace("", "");
                 console.log("event select ", e);
                 var charCode = (typeof e.which == "undefined") ? e.keyCode : e.which;
                 var charStr = String.fromCharCode(charCode);
@@ -398,8 +398,8 @@
                        }
                     }
 
-                  
                 }
+
             
                 for(var i=0; i<curRadios.length; i++){                
                     if (!curRadios[i].checked) {
