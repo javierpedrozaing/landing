@@ -330,7 +330,8 @@ a:-webkit-any-link {
     border-radius: 50px;
     color: #000;
     font-weight: bold;
-    position: relative;
+    position: relative; 
+    border:1px solid #245580;
     display: block;
     text-align: center;
     font-size: 1.2em;
